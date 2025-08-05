@@ -416,10 +416,12 @@
     display: flex;
     flex-direction: column;
     gap: calc(12 * var(--width-multiplier));
+    max-width: 65%;
     color: rgba(21, 21, 22, 0.7);
     font-size: calc(16 * var(--width-multiplier));
     @media(max-width: 767px) {
       gap: calc(8 * var(--width-multiplier));
+      max-width: unset;
       font-size: calc(14 * var(--width-multiplier));
     }
   }
@@ -442,6 +444,9 @@
     }
     .person__pagination {
       order: 1;
+    }
+    .person__position {
+      margin-left: auto;
     }
   }
   &__wrap {

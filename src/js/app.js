@@ -103,10 +103,8 @@ window.addEventListener("load", function () {
 
   document.querySelectorAll('.person__wrap').forEach((wrap) => {
     const personSwiper2 = new Swiper(wrap.querySelector('.personSwiper2'), {
-      direction: 'horizontal',
-      loop: true,
       spaceBetween: 16,
-      reverseDirection: true,
+      loop: true,
       allowTouchMove: false,
       pagination: {
         el: wrap.querySelector('.person__pagination'),
@@ -125,10 +123,8 @@ window.addEventListener("load", function () {
     });
 
     const personSwiper = new Swiper(wrap.querySelector('.personSwiper'), {
-      direction: 'horizontal',
-      loop: true,
       spaceBetween: 16,
-      reverseDirection: true,
+      loop: true,
       allowTouchMove: false,
       pagination: {
         el: wrap.querySelector('.person__pagination'),
