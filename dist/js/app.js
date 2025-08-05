@@ -257,7 +257,7 @@ window.addEventListener("load", function () {
           });
 
           new Swiper(".modalSwiper", {
-            slidesPerView: 1.2,
+            slidesPerView: 1.8,
             spaceBetween: 16,
             breakpoints: {
               768: {
