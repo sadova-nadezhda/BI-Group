@@ -948,8 +948,33 @@ h6 {
     height: calc(32 * var(--width-multiplier));
   }
 
+  .modal {
+    padding: calc(32 * var(--width-multiplier));
+  }
+
+  .modal__container {
+    padding: calc(24 * var(--width-multiplier));
+  }
+
+  .modal__top {
+    margin-bottom: calc(24 * var(--width-multiplier));
+  }
+
+  .modal__heading {
+    gap: calc(16 * var(--width-multiplier));
+  }
+
+  .modal__close {
+    width: calc(32 * var(--width-multiplier));
+    height: calc(32 * var(--width-multiplier));
+  }
+
   .modal__slider .swiper-slide {
     height: calc(220 * var(--width-multiplier));
+  }
+
+  .modal__slider {
+    margin-bottom: calc(24 * var(--width-multiplier));
   }
 }
 
@@ -1083,6 +1108,19 @@ h6 {
 
   .person__pagination::before {
     width: calc(60 * var(--width-multiplier));
+  }
+
+  .modal {
+    padding: calc(32 * var(--width-multiplier)) calc(16 * var(--width-multiplier));
+  }
+
+  .modal__container {
+    padding: calc(16 * var(--width-multiplier));
+  }
+
+  .modal__position {
+    gap: calc(8 * var(--width-multiplier));
+    font-size: calc(14 * var(--width-multiplier));
   }
 }
 

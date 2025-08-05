@@ -604,12 +604,24 @@
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 9;
+  @media(max-width: 1024px) {
+    padding: calc(32 * var(--width-multiplier));
+  }
+  @media(max-width: 767px) {
+    padding: calc(32 * var(--width-multiplier)) calc(16 * var(--width-multiplier));
+  }
   &__container {
     position: relative;
     padding: calc(36 * var(--width-multiplier));
     border-radius: calc(16 * var(--width-multiplier));
     background-color: var(--light, $light);
     overflow: hidden;
+    @media(max-width: 1024px) {
+      padding: calc(24 * var(--width-multiplier));
+    }
+    @media(max-width: 767px) {
+      padding: calc(16 * var(--width-multiplier));
+    }
   }
   &__top {
     display: flex;
@@ -617,11 +629,17 @@
     justify-content: space-between;
     gap: calc(16 * var(--width-multiplier));
     margin-bottom: calc(36 * var(--width-multiplier));
+    @media(max-width: 1024px) {
+      margin-bottom: calc(24 * var(--width-multiplier));
+    }
   }
   &__heading {
     display: flex;
     flex-direction: column;
     gap: calc(20 * var(--width-multiplier));
+    @media(max-width: 1024px) {
+      gap: calc(16 * var(--width-multiplier));
+    }
   }
   &__position {
     display: flex;
@@ -629,6 +647,10 @@
     gap: calc(12 * var(--width-multiplier));
     color: rgba(21, 21, 22, 0.7);
     font-size: calc(16 * var(--width-multiplier));
+    @media(max-width: 767px) {
+      gap: calc(8 * var(--width-multiplier));
+      font-size: calc(14 * var(--width-multiplier));
+    }
   }
   &__close {
     display: flex;
@@ -650,6 +672,10 @@
     &:hover {
       cursor: pointer;
     }
+    @media(max-width: 1024px) {
+      width: calc(32 * var(--width-multiplier));
+      height: calc(32 * var(--width-multiplier));
+    }
   }
   &__slider {
     margin-bottom: calc(36 * var(--width-multiplier));
@@ -669,6 +695,9 @@
       @media(max-width: 1024px) {
         height: calc(220 * var(--width-multiplier));
       }
+    }
+    @media(max-width: 1024px) {
+      margin-bottom: calc(24 * var(--width-multiplier));
     }
   }
   &__info {
