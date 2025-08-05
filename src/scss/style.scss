@@ -521,7 +521,7 @@
     }
 
     &_lg {
-      height: calc(420 * var(--width-multiplier));
+      height: calc(460 * var(--width-multiplier));
       @media(max-width: 1024px) {
         height: calc(320 * var(--width-multiplier));
       }
@@ -689,7 +689,7 @@
       z-index: 1;
     }
     .swiper-slide {
-      height: calc(320 * var(--width-multiplier));
+      height: calc(360 * var(--width-multiplier));
       border-radius: calc(8 * var(--width-multiplier));
       overflow: hidden;
       img {
@@ -698,7 +698,7 @@
         object-fit: cover;
       }
       @media(max-width: 1024px) {
-        height: calc(220 * var(--width-multiplier));
+        height: calc(260 * var(--width-multiplier));
       }
     }
     @media(max-width: 1024px) {

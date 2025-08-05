@@ -643,7 +643,7 @@ h6 {
 }
 
 .person__slider_lg {
-  height: calc(420 * var(--width-multiplier));
+  height: calc(460 * var(--width-multiplier));
 }
 
 .person__navigation {
@@ -783,7 +783,7 @@ h6 {
 }
 
 .modal__slider .swiper-slide {
-  height: calc(320 * var(--width-multiplier));
+  height: calc(360 * var(--width-multiplier));
   border-radius: calc(8 * var(--width-multiplier));
   overflow: hidden;
 }
@@ -975,7 +975,7 @@ h6 {
   }
 
   .modal__slider .swiper-slide {
-    height: calc(220 * var(--width-multiplier));
+    height: calc(260 * var(--width-multiplier));
   }
 
   .modal__slider {
