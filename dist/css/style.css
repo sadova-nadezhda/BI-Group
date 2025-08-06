@@ -563,7 +563,7 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: calc(12 * var(--width-multiplier));
-  max-width: 65%;
+  max-width: 90%;
   color: rgba(21, 21, 22, 0.7);
   font-size: calc(16 * var(--width-multiplier));
 }
